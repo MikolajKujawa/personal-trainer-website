@@ -1,0 +1,26 @@
+.navigation{
+    position: absolute;
+    right: 0;
+    width: 40vw;
+}
+
+ul{
+    list-style-type: none;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+ul li{
+    width: 150px;
+    text-align: center;
+    line-height: 50px;
+}
+
+a{
+    display: block;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+}
