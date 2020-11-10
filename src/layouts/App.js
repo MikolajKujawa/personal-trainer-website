@@ -1,5 +1,6 @@
 import '../styles/App.css';
 import Header from './Header';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -7,6 +8,9 @@ function App() {
         <header>
           {<Header/>}
         </header>
+        <footer>
+          {<Footer/>}
+        </footer>
     </div>
   );
 }
