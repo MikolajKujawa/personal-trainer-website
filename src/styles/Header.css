@@ -6,11 +6,11 @@
     height: 150px;
 }
 
-img{
+.header > img{
     display: block;
     width: 180px;
     height: 180px;
     position: absolute;
-    left: 50px;
+    left: 10vw;
     top: -10px;
 }
