@@ -14,11 +14,11 @@ ul{
     justify-content: space-around;
 }
 
-ul li{
+ul > li{
     text-align: center;
 }
 
-a{
+.navigation a{
     display: block;
     color: white;
     text-transform: uppercase;

@@ -1,22 +1,24 @@
 import React from 'react';
 import '../styles/Navigation.css';
+import {NavLink} from 'react-router-dom';
+
+const list = [
+    {name: 'Strona Główna', path: "/"},
+    {name: 'O mnie', path: "/omnie"},
+    {name: 'Oferta', path: "/oferta"},
+    {name: 'Kontakt', path: "/kontakt"},
+]
 
 const Navigation = () => {
+    const menu = list.map(item => (
+        <li key={item.name}>
+            <NavLink to={item.path}>{item.name}</NavLink>
+        </li>
+    ))
     return ( 
         <nav class='navigation'>
             <ul>
-                <li>
-                    <a href='Strona Główna'>Strona głowna</a>
-                </li>
-                <li>
-                    <a href='O mnie'>O mnie</a>
-                </li>
-                <li>
-                    <a href='Oferta'>Oferta</a>
-                </li>
-                <li>
-                    <a href='Kontakt'>Kontakt</a>
-                </li>
+                {menu}
             </ul>
         </nav>
      );
