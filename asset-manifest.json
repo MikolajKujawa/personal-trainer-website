@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/personal-trainer-website/static/css/main.ee36cfba.chunk.css",
+    "main.js": "/personal-trainer-website/static/js/main.50e1a6f8.chunk.js",
+    "main.js.map": "/personal-trainer-website/static/js/main.50e1a6f8.chunk.js.map",
+    "runtime-main.js": "/personal-trainer-website/static/js/runtime-main.77b1200c.js",
+    "runtime-main.js.map": "/personal-trainer-website/static/js/runtime-main.77b1200c.js.map",
+    "static/js/2.ef480923.chunk.js": "/personal-trainer-website/static/js/2.ef480923.chunk.js",
+    "static/js/2.ef480923.chunk.js.map": "/personal-trainer-website/static/js/2.ef480923.chunk.js.map",
+    "index.html": "/personal-trainer-website/index.html",
+    "static/css/main.ee36cfba.chunk.css.map": "/personal-trainer-website/static/css/main.ee36cfba.chunk.css.map",
+    "static/js/2.ef480923.chunk.js.LICENSE.txt": "/personal-trainer-website/static/js/2.ef480923.chunk.js.LICENSE.txt",
+    "static/media/front-picture.3e259734.png": "/personal-trainer-website/static/media/front-picture.3e259734.png",
+    "static/media/instagram.8e408da0.png": "/personal-trainer-website/static/media/instagram.8e408da0.png",
+    "static/media/logo-removebg-preview.419ddca3.png": "/personal-trainer-website/static/media/logo-removebg-preview.419ddca3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.77b1200c.js",
+    "static/js/2.ef480923.chunk.js",
+    "static/css/main.ee36cfba.chunk.css",
+    "static/js/main.50e1a6f8.chunk.js"
+  ]
+}
