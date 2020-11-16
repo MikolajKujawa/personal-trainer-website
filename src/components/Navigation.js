@@ -6,6 +6,7 @@ const list = [
     {name: 'Strona Główna', path: "/"},
     {name: 'O mnie', path: "/omnie"},
     {name: 'Oferta', path: "/oferta"},
+    {name: 'Blog', path: "/blog"},
     {name: 'Kontakt', path: "/kontakt"},
 ]
 
