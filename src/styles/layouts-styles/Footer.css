@@ -5,7 +5,7 @@
     background-color: black;
     text-align: center;
     width: 100vw;
-    position: absolute;
+    position: relative;
     bottom: 0;
     padding: 5px 0;
 }
