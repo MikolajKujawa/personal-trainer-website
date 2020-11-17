@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/Navigation.css';
+import '../styles/components-styles/Navigation.css';
 import {NavLink} from 'react-router-dom';
 
 const list = [
@@ -17,7 +17,7 @@ const Navigation = () => {
         </li>
     ))
     return ( 
-        <nav class='navigation'>
+        <nav className='navigation'>
             <ul>
                 {menu}
             </ul>

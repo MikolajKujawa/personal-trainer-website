@@ -1,7 +1,7 @@
 import React from 'react';
 import {NavLink} from 'react-router-dom';
 
-import '../styles/HomePage.css'
+import '../styles/pages-styles/HomePage.css'
 import img from '../images/front-picture.png'
 
 const HomePage = () => {
