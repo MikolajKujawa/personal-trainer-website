@@ -1,0 +1,44 @@
+.AboutMePage{
+    overflow: hidden;
+    width: 100vw;
+}
+
+.AboutMePage h1{
+    text-align: left;
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #555555;
+    margin-left: 5%;
+}
+
+.AboutMePage header{
+    display: flex;
+    background-color: #dddddd;
+}
+
+.AboutMePage header img{
+    display: block;
+    margin-left: 8%;
+    padding-left: 200px;
+    background-color: white;
+}
+
+.AboutMePage header article{
+    width: 80%;
+    text-align: left;
+    font-size: 25px;
+}
+
+.AboutMePage header article h1{
+    color: rgb(255, 187, 0);
+    margin: 10px 0 0 20px;
+}
+
+.AboutMePage header article span{
+    width: 60%;
+    display: block;
+    margin: 5px 0 0 20px;
+}
+.AboutMePage header article h2{
+    margin: 5px 0 0 20px;
+}
