@@ -1,6 +1,6 @@
 .AboutMePage{
     overflow: hidden;
-    width: 100vw;
+    width: 100%;
 }
 
 .AboutMePage h1{
@@ -11,7 +11,6 @@
     margin-left: 5%;
 }
 
-
 .AboutMePage section{
     display: flex;
     background-color: #dddddd;
@@ -20,7 +19,6 @@
 
 /*first section*/
 .AboutMePage .first img{
-    display: block;
     margin-left: 8%;
     padding-left: 200px;
     background-color: white;
@@ -48,7 +46,6 @@
 
 /*second section*/
 .AboutMePage .twice img{
-    display: block;
     margin-right: 8%;
     padding-right: 200px;
     background-color: white;
@@ -60,12 +57,47 @@
     font-size: 30px;
 }
 
-.AboutMePage .twice span{
+.AboutMePage .twice article span{
     width: 60%;
     display: block;
     margin: 50px 0 0 38%;
 }
 
-.AboutMePage .twice h2{
+.AboutMePage .twice article h2{
     margin: 5px 2% 0 0;
+}
+
+/*third section*/
+.AboutMePage .third img{
+    margin-left: 8%;
+    padding-left: 200px;
+    background-color: white;
+}
+
+.AboutMePage .third article{
+    width: 80%;
+    text-align: left;
+    font-size: 30px;
+}
+
+.AboutMePage .third article span{
+    width: 70%;
+    display: block;
+    margin: 5px 0 0 20px;
+}
+
+.AboutMePage .third article span h4{
+    margin: 15px 0 0 0;
+}
+
+.AboutMePage .third article span ul{
+    margin: 10px 0 30px 0;
+    padding: 0 0 0 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.AboutMePage .third article h2{
+    margin: 5px 0 0 20px;
 }

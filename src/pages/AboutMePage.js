@@ -3,6 +3,7 @@ import '../styles/pages-styles/AboutMePage.css';
 
 import AMPimage from '../images/AMPimage.png';
 import AMPimage2 from '../images/AMPimage2.jpg';
+import AMPimage3 from '../images/AMPimage3.jpg';
 
 const AboutMePage = () => {
     return ( 
@@ -40,6 +41,24 @@ const AboutMePage = () => {
                     <h2>Warto mi zaufać!</h2>
                 </article>                
                 <img src={AMPimage2} alt="AMPimage2"/>
+            </section>
+            
+            <h1>Zyski</h1>
+            <section className="third">
+                <img src={AMPimage3} alt="AMPimage3"/>
+                <article>
+                    <span>
+                        <h4>Będąc pod moją opieką zyskasz:</h4>
+                        <ul>               
+                            <li>- profesjonalną opiekę trenerską</li>
+                            <li>- darmowe wskazówki żywieniowe</li>
+                            <li>- porady 24H na dobę mailowo czy telefonicznie</li>
+                            <li>-bezpłatną konsultację (na siłowni, w penerze czy telefonicznie) przed pierwszym treningiem!</li>
+                            <li>- zyskasz nową energię do życia, czerpiąc przyjemność z ruchu!</li>
+                        </ul>                   
+                    </span>
+                    <h2>GWARANTUJĘ CI ZADOWOLENIE!</h2>
+                </article>
             </section>
         </div>
      );
