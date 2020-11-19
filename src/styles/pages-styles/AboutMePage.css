@@ -101,3 +101,16 @@
 .AboutMePage .third article h2{
     margin: 5px 0 0 20px;
 }
+
+/*fourth section*/
+
+.AboutMePage .fourth{
+    background-color: white;
+}
+
+.AboutMePage .fourth h1{
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    color: rgb(255, 187, 0);
+}

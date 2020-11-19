@@ -60,6 +60,11 @@ const AboutMePage = () => {
                     <h2>GWARANTUJĘ CI ZADOWOLENIE!</h2>
                 </article>
             </section>
+            
+            <section className="fourth">
+                <h1>To jak, działamy?!</h1>
+            </section>
+            
         </div>
      );
 }
