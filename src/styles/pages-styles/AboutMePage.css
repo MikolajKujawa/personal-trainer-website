@@ -8,13 +8,13 @@
     font-size: 60px;
     text-transform: uppercase;
     color: #555555;
-    margin-left: 5%;
+    margin: 50px 0 0 5%;
 }
 
 .AboutMePage section{
     display: flex;
     background-color: #dddddd;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 /*first section*/
