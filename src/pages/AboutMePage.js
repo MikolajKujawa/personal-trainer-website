@@ -3,6 +3,7 @@ import '../styles/pages-styles/AboutMePage.css';
 
 import AMPimage from '../images/AMPimage.png';
 import AMPimage2 from '../images/AMPimage2.jpg';
+import food from '../images/jedzenie treningowe.jpg';
 import AMPimage3 from '../images/AMPimage3.jpg';
 
 const AboutMePage = () => {
@@ -43,9 +44,21 @@ const AboutMePage = () => {
                 <img src={AMPimage2} alt="AMPimage2"/>
             </section>
             
-            <h1>Zyski</h1>
+            <h1>Nowy styl</h1>
             <section className="third">
-                <img src={AMPimage3} alt="AMPimage3"/>
+                <img src={food} alt="food"/>
+                <article>
+                    <span>
+                        <h3>Udowodnię Ci, że możesz wszystko! Na nic nie jest za późno!</h3>                        
+                        Pomogę ci zmienić twoje nawyki żywieniowe oraz styl życia, co przełoży się na twoje <strong>ZDROWIE, SAMOPOCZUCIE, KONFORT DNIA CODZIENNEGO!</strong> Udowodnię, że ruch ma wpływ na całe Twoje życie.             
+                    </span>
+                    <h3>Jestem wymagającym trenerem - każdy trening to w 100 % dobrze wykorzystany czas DLA CIEBIE!</h3>
+                </article>
+            </section>
+            
+            <h1>Zyski</h1>
+            <section className="fourth">
+               
                 <article>
                     <span>
                         <h4>Będąc pod moją opieką zyskasz:</h4>
@@ -55,14 +68,15 @@ const AboutMePage = () => {
                             <li>- porady 24H na dobę mailowo czy telefonicznie</li>
                             <li>-bezpłatną konsultację (na siłowni, w penerze czy telefonicznie) przed pierwszym treningiem!</li>
                             <li>- zyskasz nową energię do życia, czerpiąc przyjemność z ruchu!</li>
-                        </ul>                   
+                        </ul>  
+                        <h2>GWARANTUJĘ CI ZADOWOLENIE!</h2>                 
                     </span>
-                    <h2>GWARANTUJĘ CI ZADOWOLENIE!</h2>
                 </article>
+                <img src={AMPimage3} alt="AMPimage3"/>
             </section>
             
-            <section className="fourth">
-                <h1>To jak, działamy?!</h1>
+            <section className="ending">
+                <h1>NAPISZ, ZADZWOŃ!<br/> Czekam na Ciebie!</h1>
             </section>
             
         </div>

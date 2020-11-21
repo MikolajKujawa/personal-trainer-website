@@ -18,6 +18,7 @@
     text-transform: uppercase;
     font-size: 100px;
     text-shadow: 0 0 10px grey;
+    color: rgb(255, 187, 0);
     position: absolute;
     top: 100px;
     left: 15vw;
@@ -52,8 +53,8 @@
 
 .FrontPanel img{
     display: block;
-    width: 70vw;
-    height: 80vh;
+    width: 40vw;
+    height: 75vh;
     position: absolute;
     left: 35%;
     top: -15px;
