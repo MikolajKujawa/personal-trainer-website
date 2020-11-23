@@ -6,6 +6,7 @@ import Header from './Header';
 import Pages from './Pages'
 import Footer from './Footer';
 import Media from '../components/Media';
+import BMIcalc from '../components/BMIcalc'
 
 function App() {
   return (
@@ -20,6 +21,9 @@ function App() {
             {<Media/>}
           </section>
         </main>
+        <article>
+          {<BMIcalc/>}
+        </article>
         <footer>
           {<Footer/>}
         </footer>
