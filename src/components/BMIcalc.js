@@ -23,7 +23,7 @@ const BMIcalc = () => {
             else if(result>25 && result<25.99){setOcena('nadwaga')}
             else if(result>30 && result<34.99){setOcena('otyłość I stopnia')}
             else if(result>35 && result<39.99){setOcena('otyłość II stopnia')}
-            else if(result<40){setOcena('skajna otyłość')}
+            else if(result>40){setOcena('skajna otyłość')}
         }
         else{
             setCheck(false);

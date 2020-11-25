@@ -2,6 +2,7 @@ import React from 'react';
 import {NavLink} from 'react-router-dom';
 
 import '../styles/pages-styles/HomePage.css'
+import frontImage from '../images/Front-image.png';
 
 const HomePage = () => {
     return ( 
@@ -12,6 +13,7 @@ const HomePage = () => {
             <button>
                 <NavLink to='/omnie'>Więcej</NavLink>    
             </button>
+            <img src={frontImage} alt="Front-image"/>
         </div>
     );
 }

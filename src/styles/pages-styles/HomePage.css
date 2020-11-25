@@ -11,7 +11,7 @@
     text-shadow: 0 0 5px grey;
     position: absolute;
     top: 100px;
-    left: 20vw;
+    left: 28%;
 }
 
 .FrontPanel h1{
@@ -21,7 +21,7 @@
     color: rgb(255, 187, 0);
     position: absolute;
     top: 100px;
-    left: 15vw;
+    left: 23%;
 }
 
 .FrontPanel span{
@@ -29,7 +29,7 @@
     font-weight: bold;
     font-style: italic;
     position: absolute;
-    left: 18vw;
+    left: 26%;
     top: 300px;
 }
 
@@ -38,7 +38,7 @@
     background-color: gold;
     border: none;    
     position: absolute;
-    left: 20vw;
+    left: 28%;
     top: 390px;
 }
 
@@ -53,10 +53,10 @@
 
 .FrontPanel img{
     display: block;
-    width: 40vw;
-    height: 75vh;
+    width: 26%;
+    height: 110%;
     position: absolute;
-    left: 35%;
+    left: 54%;
     top: -15px;
 }
 
