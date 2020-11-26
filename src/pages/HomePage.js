@@ -13,7 +13,7 @@ const HomePage = () => {
             <button>
                 <NavLink to='/omnie'>Więcej</NavLink>    
             </button>
-            <img src={frontImage} alt="Front-image"/>
+            <img src={frontImage} alt="Frontimage"/>
         </div>
     );
 }
