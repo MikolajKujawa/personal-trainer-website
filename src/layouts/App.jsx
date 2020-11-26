@@ -4,9 +4,9 @@ import '../styles/layouts-styles/App.css';
 
 import Header from './Header';
 import Pages from './Pages'
-import Footer from './Footer';
 import Media from '../components/Media';
-import BMIcalc from '../components/BMIcalc'
+import BMIcalc from '../components/BMIcalc';
+import Footer from './Footer';
 
 function App() {
   return (
