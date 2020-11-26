@@ -8,7 +8,7 @@
 ## General info
 This project is a website for personal trainer.
 
-<p align="center"><img src="https://github.com/MikolajKujawa/App_Weather/blob/main/src/images/logo-removebg-preview.PNG" alt="Gold-Fit-Factory logo" width="500px"/></p>
+<p align="center"><img src="https://github.com/MikolajKujawa/App_Weather/blob/main/src/images/logo-removebg-preview.png" alt="Gold-Fit-Factory logo" width="500px"/></p>
 
 ## Features
 * React routing
