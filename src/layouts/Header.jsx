@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/layouts-styles/Header.css'
+import '../styles/layouts-styles/Header.sass'
 
 import logo from '../images/logo-removebg-preview.png'
 import Navigation from '../components/Navigation'

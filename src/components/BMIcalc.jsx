@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/components-styles/BMIcalc.css'
+import '../styles/components-styles/BMIcalc.sass'
 
 const BMIcalc = () => {
     const [masa, setMasa] = React.useState(0);

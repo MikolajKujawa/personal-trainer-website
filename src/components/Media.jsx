@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/components-styles/Media.css';
+import '../styles/components-styles/Media.sass';
 
 import facebook from '../images/facebook.png';
 import instagram from '../images/instagram.png';

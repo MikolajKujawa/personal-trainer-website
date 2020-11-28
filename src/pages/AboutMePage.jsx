@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/pages-styles/AboutMePage.css';
+import '../styles/pages-styles/AboutMePage.sass';
 
 import AMPimage from '../images/AMPimage.png';
 import AMPimage2 from '../images/AMPimage2.jpg';

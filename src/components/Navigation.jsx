@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/components-styles/Navigation.css';
+import '../styles/components-styles/Navigation.sass';
 import {NavLink} from 'react-router-dom';
 
 const list = [
