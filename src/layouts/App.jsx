@@ -5,6 +5,7 @@ import '../styles/layouts-styles/App.sass';
 import Header from './Header';
 import Pages from './Pages'
 import Media from '../components/Media';
+import Intro from './Intro';
 import BMIcalc from '../components/BMIcalc';
 import Footer from './Footer';
 
@@ -21,6 +22,7 @@ function App() {
             {<Media/>}
           </section>
         </main>
+        {<Intro/>}
         <article>
           {<BMIcalc/>}
         </article>
