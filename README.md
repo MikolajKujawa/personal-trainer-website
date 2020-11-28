@@ -18,6 +18,7 @@ This project is a website for personal trainer.
 ## Technologies
 * React: <i>17.0.1</i>
 * React router: <i>5.2.0</i>
+* Sass: <i>1.29.0</i>
 
 ### Other information
 Whis web was created by **Mikołaj Kujawa** <br/>
