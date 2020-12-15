@@ -20,12 +20,10 @@
         h3
             width: 20%
             margin: 0
-            div
-                input
-                    font-size: 20px
-                    height: 30px
-                    background-color: #cccccc
-                    border: 2px solid var(--titleFont)
+            input[type=number]::-webkit-inner-spin-button,
+            input[type=number]::-webkit-outer-spin-button
+                -moz-appearance: textfield
+                margin: 0
     .result
         flex-direction: column
         h3

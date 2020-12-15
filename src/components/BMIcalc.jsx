@@ -35,19 +35,19 @@ const BMIcalc = () => {
             <h1>BMI</h1>
             <span>
                 <h3>Waga:</h3>
-                <div><input 
+                <input 
                     type="number"
                     value={masa}
                     onChange={changeMasa}
-                /> kg</div>
+                /> kg
             </span>
             <span>
                 <h3>Wzrost:</h3>
-                <div><input
+                <input
                     type="number"
                     value={wzrost}
                     onChange={changeWzrost}
-                /> cm</div>
+                /> cm
             </span>
             <span className='result'>
                 <h3>Twoje BMI: {check === true ? bmi.toFixed(2) : 'Podaj swój wzrost i wagę'}</h3>
