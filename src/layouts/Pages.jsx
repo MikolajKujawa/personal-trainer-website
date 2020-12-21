@@ -4,7 +4,8 @@ import { Route, Switch } from 'react-router-dom';
 import HomePage from '../pages/HomePage';
 import AboutMePage from '../pages/AboutMePage';
 import Contact from '../pages/Contact';
-import Offer from '../pages/Offer';
+import Offers from '../pages/Offers';
+import OfferPage from '../pages/OfferPage';
 import ErrorPage from '../pages/ErrorPage';
 import Blog from '../pages/Blog';
 
@@ -14,7 +15,8 @@ const Pages = () => {
             <Switch>
                 <Route path="/" exact component = {HomePage} />
                 <Route path="/omnie" component = {AboutMePage} />
-                <Route path="/oferta" component = {Offer} />
+                <Route path="/oferta" component = {Offers} />
+                <Route path="/produkt/:name" component = {OfferPage} />
                 <Route path="/blog" component = {Blog} />
                 <Route path="/kontakt" component = {Contact} />
                 <Route component = {ErrorPage} />
