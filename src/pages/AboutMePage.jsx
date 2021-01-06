@@ -61,7 +61,7 @@ const AboutMePage = () => {
                
                 <article>
                     <span>
-                        <h4>Będąc pod moją opieką zyskasz:</h4>
+                        <h4>Będąc pod moją opieką zyskasz :</h4>
                         <ul>               
                             <li>- profesjonalną opiekę trenerską</li>
                             <li>- darmowe wskazówki żywieniowe</li>
