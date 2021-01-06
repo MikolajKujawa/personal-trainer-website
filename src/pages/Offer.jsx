@@ -24,9 +24,9 @@ const descriptions = (props) => {
                         <h2>Trening dla początkujących - Online</h2>
                         <ul>
                             <h3>Opłata</h3>
-                            <li><p>Jednorazowa:</p><u>40zł</u></li>
-                            <li><p>Miesięczna:</p><u>300zł</u></li>
-                            <li><p>3-miesięczna:</p><u>850zł</u></li>
+                            <li><p>Jednorazowa:</p><b>40zł</b></li>
+                            <li><p>Miesięczna:</p><b>300zł</b></li>
+                            <li><p>3-miesięczna:</p><b>850zł</b></li>
                         </ul>
                     </span> 
                 </article>   
@@ -54,9 +54,9 @@ const descriptions = (props) => {
                         <h2>Trening dla 2 osób - online</h2>
                         <ul>
                             <h3>Opłata</h3>
-                            <li><p>Jednorazowa:</p><u>60zł</u></li>
-                            <li><p>Miesięczna:</p><u>500zł</u></li>
-                            <li><p>3-miesięczna:</p><u>1200zł</u></li>
+                            <li><p>Jednorazowa:</p><b>60zł</b></li>
+                            <li><p>Miesięczna:</p><b>500zł</b></li>
+                            <li><p>3-miesięczna:</p><b>1200zł</b></li>
                         </ul>
                         
                     </span> 
@@ -83,7 +83,7 @@ const descriptions = (props) => {
                         <h2>Opieka trenerska - online</h2>
                         <ul>
                            <h3>Opłata</h3> 
-                           <li><p>miesięczna:</p><u>300zł</u></li>
+                           <li><p>miesięczna:</p><b>300zł</b></li>
                         </ul>
                     </span> 
                 </article>
