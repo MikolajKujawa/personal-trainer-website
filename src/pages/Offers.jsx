@@ -2,6 +2,7 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 
 import '../styles/pages-styles/Offers.sass';
+import Promotion from '../components/Promotion'
 
 import początkujący_img from '../images/offer1.jpg';
 import two_pearson from '../images/trening_we_dwóch.jpg';
@@ -31,8 +32,10 @@ const Offer = () => {
             <h1>OFERTA</h1> 
             <ul>
                 {list}
-            </ul>                     
+            </ul>  
+            <Promotion/>                   
         </div>
+        
      );
 }
  
